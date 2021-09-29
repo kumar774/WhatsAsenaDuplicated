@@ -4,7 +4,7 @@ RUN git clone https://phaticusthiccy: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@gi
 WORKDIR /root/WhatsAsenaDuplicated/
 ENV TZ=Europe/Istanbul
 RUN npm install -g npm@7.24.1
-RUN npm install supervisor -g
+//RUN npm install supervisor -g
 RUN yarn install --no-audit
 
 CMD ["node", "bot.js"]
